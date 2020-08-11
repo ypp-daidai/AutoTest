@@ -1,0 +1,24 @@
+[
+  {
+    "description":"模拟一个带有cookies的post请求",
+    "request":{
+      "uri": "/post/with/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json": {
+        "name": "huahnsan",
+        "age": "19"
+      }
+    },
+    "response":{
+      "status": 200,
+      "json":{
+        "huahansan": "success",
+        "status": "1"
+
+      }
+    }
+  }
+]

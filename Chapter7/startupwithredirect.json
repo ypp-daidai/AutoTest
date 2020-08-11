@@ -1,0 +1,25 @@
+[
+  {
+    "description": "这是一个重定向到百度的请求",
+      "request": {
+        "uri": "/redirect"
+      },
+    "redirectTo": "https://www.baidu.com/"
+  },
+  {
+    "description": "指向一个自己的页面",
+    "request": {
+      "uri": "/toRedirect"
+    },
+    "redirectTo": "/toredirect/new"
+  },
+  {
+    "description": "被指向的地址",
+    "request": {
+      "uri": "/toredirect/new"
+    },
+   "response": {
+     "text": "测试成功"
+   }
+  }
+]

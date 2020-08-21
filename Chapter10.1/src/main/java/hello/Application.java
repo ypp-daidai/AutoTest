@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 //Application类的命名公认为入口类
 @SpringBootApplication
 //自动扫描被@Service,@Repository,@Component,@Controller这些注解标识的类
-@ComponentScan("com.course.server")
+@ComponentScan("com.course")
 
 public class Application {
     public static void main(String[] args) {
